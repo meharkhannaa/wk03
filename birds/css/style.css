@@ -52,7 +52,6 @@ Centered text
 
 td, th {
   padding: 10px;
-  border-bottom: 2px solid black; /* 2px black border on bottom */
 }
 
 thead th {
@@ -65,7 +64,7 @@ thead th {
 }
 
 tbody th {
-  background-color: transparent; /* or leave them unstyled */
+  background-color: transparent; 
   color: black;
   text-transform: none;
 }
