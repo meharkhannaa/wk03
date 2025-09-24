@@ -55,7 +55,7 @@ td, th {
   border-bottom: 2px solid black; /* 2px black border on bottom */
 }
 
-th {
+thead th {
   min-width: 125px;
   background-color: #7e0820;
   color: white;
@@ -63,6 +63,13 @@ th {
   text-align: center;
   padding: 10px;
 }
+
+tbody th {
+  background-color: transparent; /* or leave them unstyled */
+  color: black;
+  text-transform: none;
+}
+
 
 tbody { 
     text-align: center;
