@@ -39,17 +39,6 @@ body {
   background-repeat: no-repeat;
 }
 
-B
-
-/* 
-
-Table cells:
-Centered text
-2px black border on bottom only
-10px padding
-
-*/ 
-
 td, th {
   padding: 10px;
 }
@@ -72,11 +61,6 @@ tbody th {
 
 tbody { 
     text-align: center;
-}
-
-td.first-child {
-  border-left: 2px solid black;  
-  border-right: 2px solid black; 
 }
 
 tr:nth-child(even) {
