@@ -1,101 +1,84 @@
-p { 
-    padding-top: 15px; 
-    text-align: center; 
+p {
+    padding-top: 15px;
 }
 
-a { 
+a {
     font-size: 16px;
-    color: #C12258; 
-    text-decoration: wavy underline; 
+    color: #b21f50;
+    text-decoration: wavy underline;
 }
 
-body p { 
-  text-align: left;
-  color: rgb(0, 0, 0); 
-  font-size: 16px;
+*:focus {
+    border: 6px dashed #417243;
+    outline: none;
 }
 
-body a { 
-  text-align: left; 
-  color:rgb(148, 33, 33); 
-  font-size: 16px; 
-}
-
-*:focus { 
-    border: 6px dashed #417243; 
-    outline: none; 
-}
-
-h1 { 
+h1 {
     text-align: center;
     line-height: 2;
-    font-family: 'Syncopate', sans-serif; 
+    font-family: "Syncopate", sans-serif;
 }
 
-body { 
-  background: #DDDDDD url("/images/pigeon-background.jpg") no-repeat center/cover;
-  background-position: center; 
-  background-size: auto;
-  background-repeat: no-repeat;
+body {
+    background-image: url("../images/pigeon-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #DDDDDD;
 }
 
-td, th {
-  padding: 10px;
+td {
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding: 10px;
 }
 
 thead th {
-  min-width: 125px;
-  background-color: #7e0820;
-  color: white;
-  text-transform: uppercase;
-  text-align: center;
-  padding: 10px;
-}
-
-tbody th {
-  background-color: transparent; 
-  color: black;
-  text-transform: none;
-}
-
-
-tbody { 
+    min-width: 125px;
+    padding: 10px;
+    text-transform: uppercase;
+    color: white;
+    background-color: #7e0820;
     text-align: center;
 }
 
-tr:nth-child(even) {
-  background-color: #D1D1D1;
-}
-tr:nth-child(odd) {
-  background-color: transparent;
-}
-
-tr:hover {
-  background-color: rgba(126, 8, 32, 0.25);
-}
-
-table { 
-    border-spacing: 0px; 
+tbody th {
+    border-left: 2px solid black;
     border-right: 2px solid black;
-    margin: auto; 
+    border-bottom: 2px solid black;
 }
 
-thead th:first-child  {
-  border-top-left-radius: 20px;
+tr:nth-child(even){
+    background-color: #d1d1d1;
+}
+
+tr:nth-child(odd){
+    background-color: transparent;
+}
+
+tr:hover{
+    background-color: rgb(126, 8, 32, 0.25);
+}
+
+table {
+    border-spacing: 0px;
+    border-right: 2px solid black;
+    margin:auto;
+    border-radius: 20px;
+}
+
+thead th:first-child {
+    border-top-left-radius: 20px;
 }
 
 thead th:last-child {
-  border-top-right-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
-tbody tr:last-child th:first-child {
-  border-bottom-left-radius: 20px;
+tbody tr:last-child th:first-child{
+    border-bottom-left-radius: 20px;
 }
 
-tbody tr:last-child td:first-child {
-  border-bottom-left-radius: 20px;
-}
-
-footer p { 
-    text-align: left; 
+tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 20px;
 }
